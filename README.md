@@ -14,25 +14,6 @@ escapar dela, nem mesmo a luz[1].
 Observando eles, Merritt[2] em seus estudos percebeu que existia uma relação entre a massa
 dos buracos negros e a velocidade de dispersão dos bojos (grupo de estrelas bem compactado dentro de uma formação estelar maior).
 
-$$
-\begin{aligned}
-  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
-      \vdots & \ddots & \vdots \\
-      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{aligned}
-$$
-
-\$$\frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4$$
-
 
 $$
 \frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4
@@ -49,9 +30,6 @@ Neste trabalho estamos interessados em:
 Uma regressão linear é uma equação onde dado um yi temos uma função em xi que é
 equivalente[4].
 
-```math
-yi = α + βxi + ϵi,  
-```
 
 ```math
 yi = α + βxi + ϵi,  
