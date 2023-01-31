@@ -6,7 +6,7 @@
 #description: "Great site about Jekyll on GH-Pages."
 
 # Build settings
-remote_theme: jekyll/midnight
+remote_theme: jekyll/Midnight
 
 #theme: minima
 #remote_theme: benbalter/retlab
