@@ -7,6 +7,10 @@
 
 # Build settings
 remote_theme: jekyll/minima
+#markdown: kramdown
+use_math: true
+
+
 
 #remote_theme: pages-themes/midnight@v0.2.0
 #plugins:
@@ -15,6 +19,5 @@ remote_theme: jekyll/minima
 #theme: minima
 #remote_theme: benbalter/retlab
 
-markdown: kramdown
-use_math: true
+
 
