@@ -42,9 +42,11 @@ Onde yi é uma observação de seu resultado, xi uma observação de uma variave
 # 3 Resultados
 A partir da equação de Merritt, podemos aplicar o log em ambas as partes e obter a seguinte
 equação.  
+
 ```math
 \frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4    
 ```
+
 ```math
 log_{10}\left(\frac{M_{\bullet}}{10^8M_{\odot}}\right) \approx log_{10}\left(3,1 \left(  \frac{\nu_e}{200} \right)^4\right)  
 ```
