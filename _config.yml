@@ -6,14 +6,12 @@
 #description: "Great site about Jekyll on GH-Pages."
 
 # Build settings
-#remote_theme: jekyll/minima #################
+remote_theme: jekyll/minima #################
 #markdown: kramdown
-#use_math: true ###################
+use_math: true ###################
 
 
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+
 
 
 #remote_theme: pages-themes/midnight@v0.2.0
