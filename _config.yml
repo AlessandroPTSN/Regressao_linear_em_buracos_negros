@@ -7,8 +7,8 @@
 
 # Build settings
 #remote_theme: jekyll/minima
-theme: minima
-remote_theme: jekyll/retlab
+theme: retlab
+remote_theme: jekyll/minima
 
 markdown: kramdown
 use_math: true
