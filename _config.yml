@@ -6,8 +6,10 @@
 #description: "Great site about Jekyll on GH-Pages."
 
 # Build settings
-theme: minima
+#remote_theme: jekyll/minima
+theme: jekyll/minima
 remote_theme: benbalter/retlab
+
 markdown: kramdown
 use_math: true
 
