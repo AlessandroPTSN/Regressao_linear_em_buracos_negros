@@ -35,6 +35,11 @@ $$
 yi = α + βxi + ϵi,  
 $$
 
+
+
+\[ yi = α + βxi + ϵi,\]  
+
+
 Onde yi é uma observação de seu resultado, xi uma observação de uma variavel explicativa, α intercepto ou coeficiente linear, β o coeficiente de regressão ou coeficiente angular e ϵi o erro experimental para cada observação i.
 
 # 3 Resultados
