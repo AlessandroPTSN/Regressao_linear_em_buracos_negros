@@ -15,10 +15,13 @@ Observando eles, Merritt[2] em seus estudos percebeu que existia uma relação e
 dos buracos negros e a velocidade de dispersão dos bojos (grupo de estrelas bem compactado dentro de uma formação estelar maior).
 
 
-$$
-\frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4
-$$
+\\( \frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4 \\)
 
+\\[ \frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4 \\]
+
+$$ \frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4 $$
+
+$ \frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4 $
 
 Neste trabalho estamos interessados em:  
 - Com base na relação empírica da massa dos buracos negros com a velocidade de dispersão que Merritt[2] propôs, criar uma regressão linear.  
