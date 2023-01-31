@@ -15,13 +15,10 @@ Observando eles, Merritt[2] em seus estudos percebeu que existia uma relação e
 dos buracos negros e a velocidade de dispersão dos bojos (grupo de estrelas bem compactado dentro de uma formação estelar maior).
 
 
-\\( \frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4 \\)
-
-\\[ \frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4 \\]
 
 $$ \frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4 $$
 
-$ \frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4 $
+
 
 Neste trabalho estamos interessados em:  
 - Com base na relação empírica da massa dos buracos negros com a velocidade de dispersão que Merritt[2] propôs, criar uma regressão linear.  
@@ -34,9 +31,9 @@ Uma regressão linear é uma equação onde dado um yi temos uma função em xi 
 equivalente[4].
 
 
-```math
+$$
 yi = α + βxi + ϵi,  
-```
+$$
 
 Onde yi é uma observação de seu resultado, xi uma observação de uma variavel explicativa, α intercepto ou coeficiente linear, β o coeficiente de regressão ou coeficiente angular e ϵi o erro experimental para cada observação i.
 
@@ -44,33 +41,19 @@ Onde yi é uma observação de seu resultado, xi uma observação de uma variave
 A partir da equação de Merritt, podemos aplicar o log em ambas as partes e obter a seguinte
 equação.  
 
-```math
-\frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4    
-```
+$$ \frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4 $$
 
-```math
-log_{10}\left(\frac{M_{\bullet}}{10^8M_{\odot}}\right) \approx log_{10}\left(3,1 \left(  \frac{\nu_e}{200} \right)^4\right)  
-```
-```math
-log_{10}\left(\frac{M_{\bullet}}{M_{\odot}}\right) - log_{10}(10^8) \approx log_{10}(3,1) + log_{10}\left( \left(  \frac{\nu_e}{200} \right)^4\right)  
-```
-```math
-log_{10}\left(\frac{M_{\bullet}}{M_{\odot}}\right) \approx (log_{10}(3,1)+8) + 4log_{10}\left(  \frac{\nu_e}{200} \right)  
-```
+$$ log_{10}\left(\frac{M_{\bullet}}{10^8M_{\odot}}\right) \approx log_{10}\left(3,1 \left(  \frac{\nu_e}{200} \right)^4\right) $$ 
 
-Fazendo 
-```math 
-\alpha = (log_{10}(3,1)+8) = 8.4913
-```
-e 
-```math
-\beta = 4
-```
-```math
-log_{10}\left(\frac{M_{\bullet}}{M_{\odot}}\right) \approx 8.4913+ 4 log_{10}\left(  \frac{\nu_e}{200} \right)
-```
-obtemos uma regressão linear baseado no modelo impírico.   
+$$ log_{10}\left(\frac{M_{\bullet}}{M_{\odot}}\right) - log_{10}(10^8) \approx log_{10}(3,1) + log_{10}\left( \left(  \frac{\nu_e}{200} \right)^4\right)  $$
 
+$$ log_{10}\left(\frac{M_{\bullet}}{M_{\odot}}\right) \approx (log_{10}(3,1)+8) + 4log_{10}\left(  \frac{\nu_e}{200} \right)  $$
+ 
+Fazendo  $\alpha = (log_{10}(3,1)+8) = 8.4913$ e  $\beta = 4 $
+
+obtemos uma regressão linear baseado no modelo impírico.  
+
+$$log_{10}\left(\frac{M_{\bullet}}{M_{\odot}}\right) \approx 8.4913+ 4 log_{10}\left(  \frac{\nu_e}{200} \right) $$  
 
 Os dados do arquivo "blackhole" foram coletados com o objetivo de analisar a relação entre a massa $M_{\bullet}$ de buracos negros supermassivos presentes no centro de galáxias e a velocidade de dispersão das estrelas em seus respectivos bojos [5].
 
