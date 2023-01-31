@@ -14,7 +14,9 @@ escapar dela, nem mesmo a luz[1].
 Observando eles, Merritt[2] em seus estudos percebeu que existia uma relação entre a massa
 dos buracos negros e a velocidade de dispersão dos bojos (grupo de estrelas bem compactado dentro de uma formação estelar maior).
 
-$$\displaystyle \frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4$$
+```math
+\frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4
+```
 
 Neste trabalho estamos interessados em:  
 - Com base na relação empírica da massa dos buracos negros com a velocidade de dispersão que Merritt[2] propôs, criar uma regressão linear.  
@@ -35,12 +37,30 @@ Onde yi é uma observação de seu resultado, xi uma observação de uma variave
 # 3 Resultados
 A partir da equação de Merritt, podemos aplicar o log em ambas as partes e obter a seguinte
 equação.  
-$$\displaystyle \frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4$$
-$$\displaystyle log_{10}\left(\frac{M_{\bullet}}{10^8M_{\odot}}\right) \approx log_{10}\left(3,1 \left(  \frac{\nu_e}{200} \right)^4\right)$$
-$$\displaystyle log_{10}\left(\frac{M_{\bullet}}{M_{\odot}}\right) - log_{10}(10^8) \approx log_{10}(3,1) + log_{10}\left( \left(  \frac{\nu_e}{200} \right)^4\right)$$
-$$\displaystyle log_{10}\left(\frac{M_{\bullet}}{M_{\odot}}\right) \approx (log_{10}(3,1)+8) + 4log_{10}\left(  \frac{\nu_e}{200} \right)$$
-Fazendo $\alpha = (log_{10}(3,1)+8) = 8.4913$ e $\beta = 4$.  
-$$\displaystyle log_{10}\left(\frac{M_{\bullet}}{M_{\odot}}\right) \approx 8.4913+ 4 log_{10}\left(  \frac{\nu_e}{200} \right)$$
+```math
+\frac{M_{\bullet}}{10^8M_{\odot}} \approx 3,1 \left(  \frac{\nu_e}{200} \right)^4    
+```
+```math
+log_{10}\left(\frac{M_{\bullet}}{10^8M_{\odot}}\right) \approx log_{10}\left(3,1 \left(  \frac{\nu_e}{200} \right)^4\right)  
+```
+```math
+log_{10}\left(\frac{M_{\bullet}}{M_{\odot}}\right) - log_{10}(10^8) \approx log_{10}(3,1) + log_{10}\left( \left(  \frac{\nu_e}{200} \right)^4\right)  
+```
+```math
+log_{10}\left(\frac{M_{\bullet}}{M_{\odot}}\right) \approx (log_{10}(3,1)+8) + 4log_{10}\left(  \frac{\nu_e}{200} \right)  
+```
+
+Fazendo 
+```math 
+\alpha = (log_{10}(3,1)+8) = 8.4913
+```
+e 
+```math
+\beta = 4
+```
+```math
+log_{10}\left(\frac{M_{\bullet}}{M_{\odot}}\right) \approx 8.4913+ 4 log_{10}\left(  \frac{\nu_e}{200} \right)
+```
 obtemos uma regressão linear baseado no modelo impírico.   
 
 
